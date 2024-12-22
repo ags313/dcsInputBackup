@@ -21,7 +21,7 @@ public readonly struct InputConfig
         }
     }
 
-    public readonly String Name;
+    public readonly string Name;
     public readonly Guid? Guid;
 
     public string WithNewGuid(Guid instanceGuid)
